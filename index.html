@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea-stall</title>
+    <!-- tailwind and dasiy Ui linl  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awsome  -->
+    <script src="https://kit.fontawesome.com/875c2435e1.js" crossorigin="anonymous"></script>
+    <style>
+        .manrope-fnt {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white manrope-fnt text-black">
+
+    <!--------------------------------------- header ---------------------------------- -->
+    <header class="container mx-auto ">
+        <!-- hero cards of daisyUI  -->
+        <div class="hero bg-[#E9EED9]  pt-10 pb-10">
+            <div class="hero-content flex-col lg:gap-56 lg:flex-row">
+
+                <div>
+                    <h1 class="text-6xl font-bold">It's good tea <br>
+                        time at Nahidul's <br> tea house</h1>
+                    <p class="py-6">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button class="btn bg-[#54473F] text-white">Get Started</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-h-max" />
+                    <div class=" -mt-16 flex items-center gap-4 drop-shadow-lg w-52 bg-[#CBD2A4] p-5 ">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3>5.00</h3>
+                            <p>Tea rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------------------------- main section---------------------------->
+    <main class="container mx-auto">
+        <!-- featured section  -->
+        <section class="text-center my-24">
+            <h2 class="font-bold text-5xl my-5">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                neque
+                magni beatae voluptatum saepe mollitia cupiditate quos aspernatur a quo. Incidunt voluptatum ducimus
+                saepe optio laborum, in
+                voluptatibus suscipit consectetur.</p>
+            <!-- tea cards  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- first tea cards  -->
+                <div class="card bg-[#EBF4F6]  shadow-xl">
+                    <figure class="pt-10">
+                        <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold">Milk Tea</h2>
+                        <p>Famous milk tea availavle in Nahidul stall</p>
+
+                    </div>
+                </div>
+                <!-- second tea cards  -->
+                <div class="card bg-[#EBF4F6]  shadow-xl">
+                    <figure class="pt-10">
+                        <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold ">Shahi Malai</h2>
+                        <p>Famous Dhakaiya Shahi Malai availavle in Nahidul stall</p>
+
+                    </div>
+                </div>
+                <!-- third tea cards  -->
+                <div class="card bg-[#EBF4F6]  shadow-xl">
+                    <figure class="pt-10">
+                        <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold ">Kulfi</h2>
+                        <p>Chittagong kulfi tea availavle Nahidul stall</p>
+
+                    </div>
+                </div>
+                <!-- four tea cards  -->
+                <div class="card bg-[#EBF4F6]  shadow-xl">
+                    <figure class="pt-10">
+                        <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title  font-bold">Chocolate</h2>
+                        <p>Most popular Chocolate tea availavle Nahidul shop</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- great tea  -->
+        <section class="bg-white flex my-28 gap-12 flex-col lg:flex-row">
+            <div class="flex-1 grid gap-5 grid-cols-1 md:grid-cols-2 ">
+                <div class="bg-[#C9E9D2] rounded-xl h-36">
+
+                </div>
+
+                <div class="bg-[#FFF9BF] row-span-2 rounded-xl flex justify-center items-center p-10">
+                    <img src="images/fresh-1.png" alt="">
+                </div>
+
+                <div class="bg-[#F5EFFF] row-span-2 rounded-xl flex justify-center items-center p-10">
+                    <img src="images/fresh-2.png" alt="">
+                </div>
+
+                <div class="bg-[#E7CCCC] rounded-xl h-36">
+
+                </div>
+            </div>
+            <div class="space-y-4 flex-1">
+                <h3 class="text-5xl font-bold">Great Tea, Freshly <br> Presented</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quasi unde nostrum mollitia
+                    consequatur facilis, beatae suscipit earum, soluta possimus quam id eius accusantium fugiat?
+                    Praesentium expedita alias obcaecati tenetur?</p>
+                <h4 class="font-bold mb-0">Unique Test</h4>
+                <p class="mt ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolores id illo
+                    sit
+                    autem soluta
+                    nesciunt ipsa laboriosam hic quas.</p>
+                <h4 class="font-bold">Premium Quality </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolores id illo sit autem soluta
+                    nesciunt ipsa laboriosam hic quas.</p>
+            </div>
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
